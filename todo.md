@@ -16,4 +16,13 @@ Crear clases propias:
 No lanzar HttpException desde dominio.
 
 
+# agregar logs
+
+# agregar health check
+
+# agregar swagger
+
+# agregar CI/CD
+
+# agregar Dockerfile    
 
