@@ -1,0 +1,15 @@
+@host = http://localhost:3000
+
+### Create a new product
+# @name createProduct
+POST {{host}}/products
+Content-Type: application/json
+
+{
+  "name": "Test Product",
+  "price": 100
+}
+
+### Get a product by id
+@productId = {{createProduct.response.body.id}}
+GET {{host}}/products/{{productId}}
